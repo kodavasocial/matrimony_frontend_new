@@ -1,0 +1,47 @@
+.about-content h5{
+    color: #890025!important;
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color:#000;
+    text-underline-offset: 5px;
+    
+}
+.about-content p{
+    color: #888888;
+    
+}
+
+.heading h2{
+    text-decoration: underline;
+    text-decoration-color:#890025;
+    text-underline-offset: 10px;
+    display: inline;
+    width: max-content;
+    display: inline-block;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #1e1f36;
+    font-weight: 700;
+
+}
+
+p{
+    color: black;
+}
+
+div.final-privacy-text{
+    margin-left: 100px;
+}
+
+div.final-privacy-text .indent-text{
+    margin-left: 50px;
+}
+
+ul.use-license-lis{
+    margin-left: 30px;
+}
+
+ul.use-license-lis li{
+    color: black;
+    list-style: disc;
+}

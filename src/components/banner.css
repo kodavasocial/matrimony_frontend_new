@@ -1,0 +1,12 @@
+.banner-carousel .slide-item:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 70%;
+  content: "";
+  border-top: 352px solid #800925;
+  border-right: 210px solid transparent;
+  border-left: 297px solid #800925;
+  border-bottom: 322px solid #800925;
+}

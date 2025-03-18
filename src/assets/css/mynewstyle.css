@@ -1,0 +1,126 @@
+
+@media screen and (max-width: 768px)
+{
+  #emailerror
+  {
+    margin-top: -100px;
+  }
+  .AcknowledgeSection
+  {
+    margin-top: -5px;
+  }
+  
+   .troubleSection
+  {
+    position: relative;
+    top: -35px;
+    /*left:200px;*/
+    text-align: end;
+  }
+
+
+  .registerSection
+  {
+   position: relative;
+   top: -10px;
+   /*left: 60px;*/
+   text-align: center;
+  }
+
+  .privacyPolicy
+  {
+    white-space: pre;
+  }
+
+  .btn-box
+  {
+    margin-top: -26px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 468px)
+{
+  #emailerror
+  {
+    margin-top: -25px;
+  }
+
+  .AcknowledgeSection
+  {
+    margin-top: -5px;
+  }
+
+ 
+
+  
+
+  .registerSection
+  {
+    position: relative;
+    top: -10px;
+    /*left: 60px;*/
+    text-align: center;
+  }
+
+  .privacyPolicy
+  {
+    white-space: pre;
+  }
+
+  .btn-box
+  {
+    margin-top: -26px;
+    margin-bottom: 10px;
+  }
+}
+
+/*Index page login*/
+.loginSection
+{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px)
+{
+  .loginSection
+  {
+    display: block;
+    padding-top: 70px;
+    padding-bottom: 0px;
+  }
+
+  .about-section
+  {
+    margin-top: -60px;
+  }
+
+  .coming-soon-section .outer-box{
+    margin-top:0px;
+  }
+         
+}
+
+.about-section
+{
+  padding-top: 100px;
+}
+.features-section-two
+{
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.app-section
+{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.news-section
+{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}

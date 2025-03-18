@@ -1,0 +1,59 @@
+.profile-modal li {
+	border-radius: 50px;
+	border: 1px solid #890025;
+	border-radius: 50px;
+	margin-right: 20px;
+	padding: 5px 10px;
+}
+
+.profile-modal ul {
+	display: flex;
+}
+
+.text h6 {
+	font-size: 32px;
+	margin-left: 23%;
+	text-align: center;
+	padding: 0;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+.modal-content {
+	width: 750px;
+	margin: auto;
+	height: 500px;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+
+	60% {
+		transform: translateX(-45%);
+	}
+
+	75% {
+		transform: translateX(-52%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+
+.modal-dialog {
+	margin: 0 auto;
+	display: table;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.modal {
+	margin-top: 30px;
+	z-index: 9999;
+}
