@@ -1,0 +1,401 @@
+.mainBannerSection {
+  background-image: url('./../../assets/images/main-slider/2.jpg');
+  width: 100%;
+  background-size: 100%;
+  /* height: 380px; */
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  /* padding: 95px 7px; */
+}
+
+.main-content {
+  padding: 100px 0px 0px 0px;
+
+}
+
+.image-wrap {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: 8px solid #890025;
+  object-fit: cover;
+
+}
+
+.text-content {
+  margin: 16px 15px 4px 0px;
+}
+
+.text-content h6 {
+  color: #000;
+  font-size: 22px;
+  
+font-weight: 700;
+
+}
+
+.status {
+  background: #f0ededed;
+  height: 24px;
+  padding: 1px 8px 8px 7px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.text-star ul li {
+  display: inline-block;
+  color: #f9cc1e;
+}
+
+.dott {
+  height: 12px;
+  background: red;
+  width: 10px;
+  margin: 6px 10px 0px 10px;
+}
+
+.side-text-one h6,
+.side-text-two h6 {
+  color: #fff;
+}
+
+.side-content {
+  padding: 140px 0px 0px 0px;
+  float: right;
+}
+
+.dimo {
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  margin-right: 30px;
+
+}
+
+.one-card img {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.one-card {
+  background-image: url('../../../public/assets/images/2.jpg');
+
+  width: 100%;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+.profile-image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.second-card,
+.third-card {
+  box-shadow: 0 0 25px rgba(0, 0, 0, .15) !important;
+  border-radius: 0px;
+  min-height: 425px;
+  overflow-y: auto;
+}
+
+.border-bottom-line {
+  border-bottom: 1px solid #800925;
+}
+
+.border-line {
+  border-bottom: 3px solid #800925;
+  margin: 0px 150px;
+  margin-bottom: 20px;
+}
+
+.info-mid li {
+  display: inline-block;
+  margin-right: 65px;
+}
+
+.info-mid {
+  padding: 20px 20px;
+}
+.info-mid a {
+  font-size: 18px;
+  color: #fff;
+}
+.mid-sectiuon {
+  background: #d79c80
+}
+
+.information-card {
+  box-shadow: 0 0 25px rgba(0, 0, 0, .15) !important;
+ 
+}
+.Interest-Expressed{
+  min-height: 605px;
+  overflow-y:auto;
+}
+
+.info-profile-one>ul>li {
+  margin-bottom: 10px;
+}
+
+.user-profile i {
+  background: #dbd0d0;
+  padding: 10px 15px;
+}
+
+.third-image img {
+  height: 50px;
+  width: 50px;
+  margin: 0px 20px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.third-content span i {
+  color: #890025;
+}
+.third-content h6 {
+  color: #000 !important;
+}
+.media-icons i {
+  color: #800925;
+  font-size: 18px;
+  background-color: rgb(232, 220, 218);
+  padding: 10px 10px;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-all-cards li {
+  display: inline-block;
+}
+
+.media-bg-image {
+  background-image: url('../../../public/assets/images/2.jpg'), linear-gradient(to right, #9d7985, #890025);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.media-content-img {
+  width: calc(32% - 7px);
+  margin-right: 13px;
+  margin-bottom: 12.5px;
+  height: 180px;
+}
+
+.media-content-images li {
+  display: inline;
+}
+
+.no-items {
+  box-shadow: 0 0 25px rgba(0, 0, 0, .15) !important;
+  border-radius: 0px;
+}
+
+.border-sideline {
+  border-left: 5px solid #800925;
+}
+
+.row.media-bg-image-video {
+  background-image: url('../../../public/assets/images/2.jpg'), linear-gradient(to right, #d2564d, #ae1313);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.media-bg-image-file {
+  background-image: url('../../../public/assets/images/2.jpg'), linear-gradient(to right, #d74173, #480d1d);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+
+.show-all-cards {
+  box-shadow: 0 0 25px rgba(0, 0, 0, .15) !important;
+  border-radius: 0px;
+}
+
+.show-card-img img {
+  height: 50px;
+  width: 50px;
+  margin: 0px 20px;
+  border-radius: 50px;
+}
+
+/* 
+.image-container {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0px;
+} */
+
+.image-container h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0 20px;
+}
+
+.image-container h1 small {
+  display: block;
+  font-size: 15px;
+  padding-top: 8px;
+  color: gray;
+}
+
+.image-container .avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: -20px auto;
+}
+
+.image-container .avatar-upload .avatar-edit {
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+  top: 135px;
+}
+
+.img-content {
+  position: relative;
+}
+
+label.load-img {
+  margin: 0px !important;
+}
+
+/* button.btn.btn-primary:hover {
+  background-color: white;
+  color: #890025;
+  border: 1px solid #890025;
+} */
+
+.btn.btn-primary {
+  background-color: #890025;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px 18px;
+
+}
+
+.btn:focus,.btn:active {
+  outline: none;
+}
+.btn:focus-visible {
+  box-shadow: 0px 0px 0px 0px !important;
+}
+
+.btn.btn-secondary {
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px 18px;
+}
+
+.avatar-edit {
+  position: absolute;
+  right: 2px;
+  background-color: #b5aeae;
+  padding: 3px 9px;
+  border-radius: 50px;
+  bottom: 21px;
+  border: 2px solid #fff;
+}
+
+.avatar-edit svg {
+  color: black;
+}
+
+.image-container .avatar-upload .avatar-edit input {
+  display: none;
+}
+
+/* .image-container .avatar-upload .avatar-edit input+label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #890025;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+} */
+
+.image-container .avatar-upload .avatar-edit input+label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+  color: red;
+}
+
+.image-container .avatar-upload .avatar-edit label .pensil {
+  color: #fff;
+}
+
+.image-container .avatar-upload .avatar-edit input+label:after {
+  content: "\f040";
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.image-container .avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.image-container .avatar-upload .avatar-preview>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading {
+  color: #800925;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}

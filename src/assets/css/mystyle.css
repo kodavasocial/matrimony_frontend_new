@@ -1,0 +1,53 @@
+.news-block 
+ {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.about-section {
+    position: relative;
+    padding: 50px 0 5px;
+}
+.speakers-section {
+    position: relative;
+    padding: 30px 0 25px;
+}
+.app-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.keepin_Sign
+{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px)
+{
+.sec-title {
+    margin-bottom: 40px;
+    margin-top: 12px;
+}
+.about-section .icon-circle-blue {
+    display: none;
+}
+.features-section-two {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.about-section .content-column {
+    position: relative;
+    margin-bottom: 5px;
+}
+.app-section {
+   display: none;
+}
+
+.content-column {
+    margin-top: 0px;
+}
+.about-section .image-column {
+    display: none;
+}
+
+}
+

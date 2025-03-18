@@ -1,0 +1,60 @@
+.notification {
+    margin-top: 11px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: -8px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 14px;
+}
+
+.notification-box {
+    position: absolute;
+    width: 252px;
+    color: black;
+    background: white;
+    z-index: 99;
+    padding: 15px;
+}
+
+.request-box {
+    display: flex;
+}
+
+.notification-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 0px 10px 11px 0px
+}
+
+.request-btn-row {
+    text-align: center;
+}
+
+.request-btn-row .friend-request {
+    width: 30%;
+    margin: 4px 5px 25px 4px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.request-btn-row .accept-request {
+    background-color: #41c764;
+    color: #fff;
+}
+
+.request-btn-row .decline-request {
+    background-color: #FF6666;
+    color: #fff;
+}

@@ -1,0 +1,67 @@
+.row 
+{
+   
+    margin-right: 90px;
+    margin-left: 109px;
+}
+
+@media screen and (max-width: 568px)
+{
+	.row 
+	{
+    
+    	margin-right: 0px;
+    	margin-left: 0px;
+	}
+}
+@media screen and (max-width: 768px) 
+{
+
+	.row 
+	{
+
+    	margin-right: 0px;
+		margin-left: 0px;
+
+	}
+	.error-section2 .btn-style-two {
+		margin-top: 30px;
+	}
+	
+}
+
+/* Add a right margin to each icon */
+.faio {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+
+.contact-form .form-group input[type="text"], .contact-form .form-group input[type="email"], .contact-form .form-group input[type="url"], .contact-form .form-group textarea, .contact-form .form-group select
+{
+	height:37px;
+}
+
+.contact-form .form-group select {
+    position: relative;
+    display: block;
+    width: 107%;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0px 8px;
+    border: 1px solid #facedd;
+    height: 38px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    border-radius: 4px;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #facedd	
+}
+
+::select option {
+    background: #ec167f;
+    color: #ffffff;
+}

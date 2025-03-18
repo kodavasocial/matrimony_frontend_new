@@ -1,0 +1,19 @@
+.dropselect{
+	padding: 9px 9px;
+	height: 43px;
+	width: 104%;
+}
+select.dropselect {
+    border-radius: 50px;
+}
+.search
+{
+	color:#ffffff;
+}
+button.theme-btn.btn.btn-style-two.btn-style-letsbegin {
+    border-radius: 50px;
+    padding: 4px 14px;
+    color: #8e0026;
+    border: 2px solid #8e0026;
+}
+
